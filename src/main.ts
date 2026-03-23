@@ -42,7 +42,9 @@ if (db) {
 
 v1Router.get("/healthz", handlerReadiness);
 
-
+function unused() {
+  // empty
+}
 
 app.use("/v1", v1Router);
 
