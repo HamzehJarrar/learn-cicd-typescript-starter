@@ -10,7 +10,10 @@ describe("getAPIKey", () => {
 
     const result = getAPIKey(headers);
     expect(result).toBe("123456");
+    
   });
+
+
 
   test("returns null if no API key", () => {
     const headers: IncomingHttpHeaders = {};
