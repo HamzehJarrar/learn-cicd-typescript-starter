@@ -10,6 +10,7 @@ describe("getAPIKey", () => {
 
     const result = getAPIKey(headers);
 
+    
     expect(result).toBe("123456");
   });
 
