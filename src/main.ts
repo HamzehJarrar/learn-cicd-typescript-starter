@@ -47,7 +47,7 @@ function unused() {
 }
 
 app.use("/v1", v1Router);
-
+app.use(unused);
 app.listen(config.api.port, () => {
   console.log(`Server is running on port: ${config.api.port}`);
 });
