@@ -1,4 +1,3 @@
-![Tests](https://github.com/hamzeh/learn-cicd-typescript-starter/actions/workflows/tests.yml/badge.svg)
 # learn-cicd-typescript-starter (Notely)
 
 
