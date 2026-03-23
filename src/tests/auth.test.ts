@@ -5,12 +5,12 @@ describe("getAPIKey", () => {
 
   test("returns API key if exists", () => {
     const headers = {
-      authorization: "ApiKey 12345"
+      authorization: "ApiKey 123456"
     };
 
     const result = getAPIKey(headers as any);
 
-    expect(result).toBe("12345");
+    expect(result).toBe("123456");
   });
 
   test("returns null if no API key", () => {
